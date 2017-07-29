@@ -1,0 +1,15 @@
+## roles/nfs-server/tasks/setup-RedHat.yml
+## RedHat family specific tasks
+# vim:ft=ansible:
+---
+- name: Ensure NFS packages are installed.
+  package: 
+    name: nfs-utils 
+    state: installed
+
+- name: Ensure rpcbind is running.
+  service:
+    name: rpcbind
+    state: started
+    enabled: yes
+...

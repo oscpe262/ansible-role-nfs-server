@@ -1,0 +1,9 @@
+## roles/nfs-server/handlers/main.yml
+# Handlers for the role
+# vim:ft=ansible:
+---
+- name: Restart NFS
+  service: "name={{ nfs_server_daemon }} state=restarted"
+  when: nfs_exports|length
+...
+

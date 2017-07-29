@@ -1,0 +1,7 @@
+## roles/nfs-server/defaults/main.yml
+# Default lower priority variables for the role
+# vim:ft=ansible:
+---
+nfs_exports: []
+...
+

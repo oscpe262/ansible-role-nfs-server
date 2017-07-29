@@ -1,0 +1,4 @@
+# nfs-server/vars/Debian.yml
+---
+nfs_server_daemon: nfs-kernel-server
+...

@@ -1,0 +1,10 @@
+## roles/nfs-server/tasks/setup-Debian.yml
+## Debian family specific tasks
+# vim:ft=ansible:
+---
+- name: Ensure NFS packages are installed.
+  apt: "name={{ item }} state=installed"
+  with_items:
+    - nfs-common
+    - nfs-kernel-server
+...
