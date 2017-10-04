@@ -14,8 +14,12 @@
   include_vars: Fedora.yml
   when: ansible_distribution == "Fedora"
 
+- name: "Arch specific overrides"
+  include_vars: Arch Linux.yml
+  when: "'Arch' in ansible_distribution"
+
 ## Setup and install
-- include: setup-{{ ansible_os_family }}.yml
+- include_tasks: setup-{{ ansible_os_family }}.yml
   
 - name: Ensure directories to export exists
   file: 

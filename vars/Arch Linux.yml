@@ -1,0 +1,4 @@
+# nfs-server/vars/Arch\ Linux.yml
+---
+nfs_server_daemon: nfs-server
+...
