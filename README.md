@@ -1,6 +1,6 @@
 # Ansible role 'ansible-role-nfsserver'
 
-An Ansible role for setting up an NFS server. Largely a reboot of Jeff Geerling's role to fit my other roles. Feel
+An Ansible role for setting up an NFS server. Largely a reboot of Jeff Geerling's role to fit my other roles. 
 
 ## Requirements
 One of the following distributions:
