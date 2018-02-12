@@ -1,5 +1,5 @@
-## roles/ansible-role-nfsserver/tasks/setup-RedHat.yml
-## RedHat family specific tasks
+## roles/ansible-role-nfsserver/tasks/setup-Arch\ Linux.yml
+## Arch Linux specific tasks
 # vim:ft=ansible:
 ---
 - name: Ensure NFS packages are installed.

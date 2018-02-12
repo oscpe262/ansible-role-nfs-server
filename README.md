@@ -1,4 +1,4 @@
-# Ansible role 'nfs-server'
+# Ansible role 'ansible-role-nfsserver'
 
 An Ansible role for setting up an NFS server. Largely a reboot of Jeff Geerling's role to fit my other roles. Feel
 
@@ -19,7 +19,7 @@ Earlier releases of mentioned distributions might work, but no guarantees. Feel 
 ```Yaml
 - hosts: foo
   roles:
-    - role: nfs-server
+    - role: ansible-role-nfsserver
       tags: nfs
       nfs_exports:
         - "/srv/nfs/ *(fsid=0,rw,sync,no_subtree_check)"

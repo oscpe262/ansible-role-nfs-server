@@ -1,4 +1,4 @@
-# ansible-role-nfsserver/vars/Fedora.yml
+# ansible-role-nfsserver/vars/Arch\ Linux.yml
 ---
 nfs_server_daemon: ansible-role-nfsserver
 ...

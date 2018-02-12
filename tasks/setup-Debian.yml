@@ -1,4 +1,4 @@
-## roles/nfs-server/tasks/setup-Debian.yml
+## roles/ansible-role-nfsserver/tasks/setup-Debian.yml
 ## Debian family specific tasks
 # vim:ft=ansible:
 ---

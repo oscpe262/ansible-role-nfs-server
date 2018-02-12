@@ -1,4 +1,4 @@
-# nfs-server/vars/Debian.yml
+# ansible-role-nfsserver/vars/Debian.yml
 ---
 nfs_server_daemon: nfs-kernel-server
 ...
