@@ -1,4 +1,4 @@
-# ansible-role-nfsserver/vars/RedHat.yml
+# ansible-role-nfs-server/vars/RedHat.yml
 ---
 nfs_server_daemon: nfs
 ...

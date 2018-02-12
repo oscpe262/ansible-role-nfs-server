@@ -1,4 +1,4 @@
-## roles/ansible-role-nfsserver/handlers/main.yml
+## roles/ansible-role-nfs-server/handlers/main.yml
 # Handlers for the role
 # vim:ft=ansible:
 ---

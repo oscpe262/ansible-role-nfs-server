@@ -1,5 +1,5 @@
-## roles/ansible-role-nfsserver/meta/main.yml
-# Meta file for ansible-role-nfsserver 
+## roles/ansible-role-nfs-server/meta/main.yml
+# Meta file for ansible-role-nfs-server 
 # vim:ft=ansible:
 ---
 ## If another role lists a dependency, it will only run once by default.

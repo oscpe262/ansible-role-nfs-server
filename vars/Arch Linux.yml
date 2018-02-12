@@ -1,1 +1,4 @@
-Archlinux.yml
+# ansible-role-nfs-server/vars/Arch\ Linux.yml
+---
+nfs_server_daemon: ansible-role-nfs-server
+...

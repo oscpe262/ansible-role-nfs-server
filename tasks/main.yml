@@ -1,4 +1,4 @@
-## roles/ansible-role-nfsserver/tasks/main.yml
+## roles/ansible-role-nfs-server/tasks/main.yml
 ## Role main file
 # vim:ft=ansible:
 ---

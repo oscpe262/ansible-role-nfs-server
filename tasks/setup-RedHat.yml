@@ -1,4 +1,4 @@
-## roles/ansible-role-nfsserver/tasks/setup-RedHat.yml
+## roles/ansible-role-nfs-server/tasks/setup-RedHat.yml
 ## RedHat family specific tasks
 # vim:ft=ansible:
 ---
