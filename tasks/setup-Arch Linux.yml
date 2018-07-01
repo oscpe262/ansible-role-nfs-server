@@ -1,6 +1,6 @@
 ## roles/ansible-role-nfs-server/tasks/setup-Arch\ Linux.yml
 ## Arch Linux specific tasks
-# vim:ft=ansible:
+# vim:ft=yaml.ansible:
 ---
 - name: Ensure NFS packages are installed.
   package: 
