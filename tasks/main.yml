@@ -8,7 +8,7 @@
 
 - name: "RHEL 7 specific overrides"
   include_vars: RedHat-7.yml
-  when: ansible_os_family == 'RedHat' and ansible_distribution_major_version == "7"
+  when: ansible_os_family == 'RedHat' and ansible_distribution_major_version|int >= 7
 
 - name: "Fedora specific overrides"
   include_vars: Fedora.yml

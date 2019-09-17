@@ -12,4 +12,21 @@
     name: rpcbind
     state: started
     enabled: yes
+
+- name: Open firewall
+  firewalld:
+    service: '{{ item }}'
+    permanent: yes
+    state: enabled
+  with_items:
+    - nfs
+    - nfs3
+    - mountd
+    - rpc-bind
+
+- name: Set selinux flag
+  seboolean:
+    name: nfs_export_all_rw
+    state: yes
+    persistent: yes
 ...
